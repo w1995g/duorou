@@ -1,5 +1,6 @@
 <template>
   <div>
+    <span>肉多多</span>
     <Search></Search>
     <Banner></Banner>
     <Navc></Navc>
