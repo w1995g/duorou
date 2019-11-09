@@ -1,21 +1,21 @@
 // 轮播图
 <template>
   <!-- 轮播图 -->
-  <div class="wrapper">
+  <div class="wrapper2">
     <van-swipe :autoplay="2000" indicator-color="white">
     <van-swipe-item>
       <div class="imgBox">
-        <img src="../../../public/images/4.jpg" alt />
+        <img src="../../../public/images/homebanner1.jpg" alt />
       </div>
     </van-swipe-item>
     <van-swipe-item>
       <div class="imgBox">
-        <img src="../../../public/images/5.jpg" alt />
+        <img src="../../../public/images/homebanner2.jpeg" alt />
       </div>
     </van-swipe-item>
     <van-swipe-item>
       <div class="imgBox">
-        <img src="../../../public/images/6.jpg" alt />
+        <img src="../../../public/images/homebanner3.jpg" alt />
       </div>
     </van-swipe-item>
   </van-swipe>
@@ -38,6 +38,6 @@ img {
 }
 .imgBox{
   width:100%;
-  height:100%px;
+  height:100%;
 }
 </style>
