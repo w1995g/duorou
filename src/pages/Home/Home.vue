@@ -1,5 +1,10 @@
 <template>
+<<<<<<< HEAD
   <div class="wrapper0">
+=======
+  <div>
+    <span>肉多多</span>
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
     <Search></Search>
     <Banner></Banner>
     <Navc></Navc>

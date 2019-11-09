@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from './pages/Home/Home.vue';
 import My from './pages/My/My.vue';
+<<<<<<< HEAD
 import Login from './pages/Login.vue';
 import ShoppingMall from './pages/ShoppingMall/ShoppingMall.vue';
 import Regis from './pages/Regis.vue';
@@ -11,6 +12,11 @@ import Push from './pages/My/My address/Push.vue';
 import Personal from './pages/My/Authentication/Personal.vue';
 import Enterprise from './pages/My/Authentication/Enterprise.vue';
 import SetUp from './pages/My/Set up/SetUp.vue';
+=======
+import Login from './Login.vue';
+import ShoppingMall from './pages/ShoppingMall/ShoppingMall.vue';
+import Push from './pages/My/My address/Push.vue'
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
 
 // 商品
 import Chicken from './pages/ShoppingMall/Chicken.vue';
@@ -78,6 +84,7 @@ const router = new VueRouter({
         name: 'my',
         component: My,
     },{
+<<<<<<< HEAD
         // 添加地址
         path:'/push',
         name:'push',
@@ -97,6 +104,11 @@ const router = new VueRouter({
         path:'/setup',
         name:'setup',
         component:SetUp
+=======
+        path:'/push',
+        name:'push',
+        component:Push
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
     }]
 });
 export default router;

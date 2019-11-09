@@ -36,12 +36,15 @@
       <van-cell icon="chat-o" title="联系客服" is-link />
       <van-cell icon="setting-o" title="设置" is-link />
     </van-cell-group>
+<<<<<<< HEAD
     <van-action-sheet
       v-model="show"
       :actions="actions"
       cancel-text="取消"
     />
     <!--       @cancel="onCancel" -->
+=======
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
     <Navc></Navc>
   </div>
 </template>
@@ -50,6 +53,7 @@ import Navc from "../Home/Navc.vue";
 import { Row, Col, Icon, Cell, CellGroup } from "vant";
 
 export default {
+<<<<<<< HEAD
   data() {
     return {
       show: false
@@ -61,6 +65,8 @@ export default {
       // Toast('cancel');
     }
   },
+=======
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
   components: {
     Navc,
     [Row.name]: Row,

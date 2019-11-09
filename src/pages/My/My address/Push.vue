@@ -2,6 +2,10 @@
   <div>
     编辑地址
     <van-address-edit
+<<<<<<< HEAD
+=======
+    :area-list="areaList"
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
       show-postal
       show-delete
       show-set-default
@@ -16,7 +20,11 @@ export default {
   
   data() {
     return {
+<<<<<<< HEAD
         // areaList,
+=======
+        areaList,
+>>>>>>> 453fabc0b8d639b8ee1222cecc3b55449159711c
       searchResult: []
     };
   }
